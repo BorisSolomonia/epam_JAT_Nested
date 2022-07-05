@@ -10,6 +10,7 @@ public class EnclosingClass {
         cryptoBalance = initBalance;
 
     }
+    
 
     public void withdrawMoney(Double amountRequested){
         // withdraws money from the account
@@ -38,7 +39,7 @@ public class EnclosingClass {
     };
 
     public static class Transferwise {
-        //the app for international transfers
+        //the app for international transfers, it is static because to show all the transfers
         public Double returnBalance(){
             return cryptoBalance;
         };
