@@ -21,6 +21,7 @@ public class EnclosingClass {
 
 
     protected class Atm {
+        //this is an inner class as online atm
         public Double returnBalance(){
             return cryptoBalance;
         };
@@ -37,6 +38,7 @@ public class EnclosingClass {
     };
 
     public static class Transferwise {
+        //the app for international transfers
         public Double returnBalance(){
             return cryptoBalance;
         };
