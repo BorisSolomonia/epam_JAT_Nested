@@ -20,6 +20,8 @@ public class EnclosingClass {
 
     }
 
+    
+
 
     protected class Atm {
         //this is an inner class as online atm
