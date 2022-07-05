@@ -10,7 +10,7 @@ public class EnclosingClass {
         cryptoBalance = initBalance;
 
     }
-    
+
 
     public void withdrawMoney(Double amountRequested){
         // withdraws money from the account
