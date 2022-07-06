@@ -5,4 +5,5 @@ public class Main {
         EnclosingClass.Atm atm = eclass.new Atm();
         System.out.println(atm.withdraw(100.0));
     }
+    
 }
