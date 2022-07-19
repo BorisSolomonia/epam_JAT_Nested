@@ -11,7 +11,6 @@ public class EnclosingClass {
 
     }
 
-
     public void withdrawMoney(Double amountRequested){
         // withdraws money from the account
         if(amountRequested > cryptoBalance){
@@ -19,10 +18,7 @@ public class EnclosingClass {
         }
 
     }
-
     
-
-
     protected class Atm {
         //this is an inner class as online atm
         public Double returnBalance(){
