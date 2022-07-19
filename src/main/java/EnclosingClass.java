@@ -8,7 +8,6 @@ public class EnclosingClass {
         this.initBalance = initBalance;
         this.transferRequest = transferRequest;
         cryptoBalance = initBalance;
-
     }
 
     public void withdrawMoney(Double amountRequested){
@@ -16,15 +15,13 @@ public class EnclosingClass {
         if(amountRequested > cryptoBalance){
             cryptoBalance -=amountRequested;
         }
-
     }
-    
+
     protected class Atm {
         //this is an inner class as online atm
         public Double returnBalance(){
             return cryptoBalance;
         };
-
         public Double withdraw(Double amount){
             return cryptoBalance -= amount;
         };
@@ -45,5 +42,4 @@ public class EnclosingClass {
             return cryptoBalance -= amount;
         };
     };
-
 }
